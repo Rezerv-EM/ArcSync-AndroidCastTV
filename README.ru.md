@@ -2,7 +2,7 @@
 
 **Игры с ПК. На большом экране.**
 
-[Скачать APK](../../releases/latest) · [ArcSync для Windows](https://github.com/Rezerv-EM/ArcSync) · [История версий](CHANGELOG.md) · [English](README.md)
+[Скачать APK](../../releases) · [ArcSync для Windows](https://github.com/Rezerv-EM/ArcSync) · [История версий](CHANGELOG.md) · [English](README.md)
 
 Дополнение к [ArcSync](https://github.com/Rezerv-EM/ArcSync) для Android TV: листайте библиотеку ArcSync пультом, запускайте игру на ПК и играйте на телевизоре с геймпадом. Сделано для слабых ТВ-процессоров: лёгкий интерфейс, аппаратное декодирование и управление пультом.
 
@@ -36,7 +36,7 @@
 ## Установка
 
 1. Установите или обновите [ArcSync](https://github.com/Rezerv-EM/ArcSync/releases/latest) **0.1.5 или новее** на ПК.
-2. Скачайте **ArcSyncCastTV-0.1-alpha.apk** из [последнего релиза](../../releases/latest) и сверьте SHA-256 с `SHA256SUMS.txt`.
+2. Скачайте **ArcSyncCastTV-0.1-alpha.apk** из [последнего релиза](../../releases) и сверьте SHA-256 с `SHA256SUMS.txt`.
 3. Установите на телевизор: скопируйте APK на флешку и откройте файловым менеджером или через `adb install`.
 4. ТВ и ПК в одной сети (лучше по кабелю). Откройте ArcSync Cast TV, выберите свой ПК и введите код с экрана ПК.
 
@@ -62,4 +62,4 @@ certutil -hashfile ArcSyncCastTV-0.1-alpha.apk SHA256
 
 Бесплатно как часть [ArcSync](https://github.com/Rezerv-EM/ArcSync) на условиях [соглашения ArcSync](https://github.com/Rezerv-EM/ArcSync/blob/main/EULA.txt). Исходный код приложения закрыт; в репозитории — релизы и документация. См. [сторонние компоненты](THIRD_PARTY_NOTICES.md). Названия и изображения игр принадлежат их правообладателям. На скриншотах — русский интерфейс и настоящая библиотека.
 
-Скачать: **ArcSyncCastTV-0.1-alpha.apk** в [последнем релизе](../../releases/latest).
+Скачать: **ArcSyncCastTV-0.1-alpha.apk** в [последнем релизе](../../releases).

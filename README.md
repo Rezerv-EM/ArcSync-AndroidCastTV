@@ -2,7 +2,7 @@
 
 **Your PC games. On the big screen.**
 
-[Download APK](../../releases/latest) · [ArcSync for Windows](https://github.com/Rezerv-EM/ArcSync) · [Release history](CHANGELOG.md) · [Русский](README.ru.md)
+[Download APK](../../releases) · [ArcSync for Windows](https://github.com/Rezerv-EM/ArcSync) · [Release history](CHANGELOG.md) · [Русский](README.ru.md)
 
 An add-on for [ArcSync](https://github.com/Rezerv-EM/ArcSync) made for Android TV: browse your ArcSync library with the TV remote, launch a game on the PC and play it on the TV with a gamepad. Built for weak TV chips: a light interface, hardware decoding and a remote-friendly layout.
 
@@ -36,7 +36,7 @@ An add-on for [ArcSync](https://github.com/Rezerv-EM/ArcSync) made for Android T
 ## Install
 
 1. Install or update [ArcSync](https://github.com/Rezerv-EM/ArcSync/releases/latest) **0.1.5 or newer** on the PC.
-2. Download **ArcSyncCastTV-0.1-alpha.apk** from the [latest release](../../releases/latest) and check its SHA-256 with `SHA256SUMS.txt`.
+2. Download **ArcSyncCastTV-0.1-alpha.apk** from the [latest release](../../releases) and check its SHA-256 with `SHA256SUMS.txt`.
 3. Install it on the TV: copy the APK to a USB stick and open it with a file manager, or use `adb install`.
 4. TV and PC on the same network (Ethernet is best). Open ArcSync Cast TV, pick your PC and enter the code shown on the PC.
 
@@ -62,4 +62,4 @@ This is an **alpha**. Report bugs in [Issues](../../issues): include the app ver
 
 Free to use as part of [ArcSync](https://github.com/Rezerv-EM/ArcSync) under the [ArcSync EULA](https://github.com/Rezerv-EM/ArcSync/blob/main/EULA.txt). Application source code remains private; this repository contains releases and documentation. See [third-party notices](THIRD_PARTY_NOTICES.md). Game names and images belong to their respective owners. Screenshots show the Russian interface with real library data.
 
-Download: **ArcSyncCastTV-0.1-alpha.apk** from the [latest release](../../releases/latest).
+Download: **ArcSyncCastTV-0.1-alpha.apk** from the [latest release](../../releases).
