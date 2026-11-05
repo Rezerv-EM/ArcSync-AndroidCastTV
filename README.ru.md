@@ -6,7 +6,7 @@
 
 Дополнение к [ArcSync](https://github.com/Rezerv-EM/ArcSync) для Android TV: листайте библиотеку ArcSync пультом, запускайте игру на ПК и играйте на телевизоре с геймпадом. Сделано для слабых ТВ-процессоров: лёгкий интерфейс, аппаратное декодирование и управление пультом.
 
-**Альфа 0.1 · Android TV 6+ · Нужен ArcSync 0.1.5+ на Windows · Русский интерфейс**
+**Альфа 0.1.1 · Android TV 6+, любой процессор ТВ · Нужен ArcSync 0.1.6+ на Windows · Любая видеокарта на ПК · Русский интерфейс**
 
 ![ArcSync Cast TV — библиотека](docs/assets/tv-library.webp)
 
@@ -35,19 +35,19 @@
 
 ## Установка
 
-1. Установите или обновите [ArcSync](https://github.com/Rezerv-EM/ArcSync/releases/latest) **0.1.5 или новее** на ПК.
-2. Скачайте **ArcSyncCastTV-0.1-alpha.apk** из [последнего релиза](../../releases) и сверьте SHA-256 с `SHA256SUMS.txt`.
+1. Установите или обновите [ArcSync](https://github.com/Rezerv-EM/ArcSync/releases/latest) **0.1.6 или новее** на ПК.
+2. Скачайте **ArcSyncCastTV-0.1.1-alpha.apk** из [последнего релиза](../../releases) и сверьте SHA-256 с `SHA256SUMS.txt`.
 3. Установите на телевизор: скопируйте APK на флешку и откройте файловым менеджером или через `adb install`.
 4. ТВ и ПК в одной сети (лучше по кабелю). Откройте ArcSync Cast TV, выберите свой ПК и введите код с экрана ПК.
 
 ```text
-certutil -hashfile ArcSyncCastTV-0.1-alpha.apk SHA256
+certutil -hashfile ArcSyncCastTV-0.1.1-alpha.apk SHA256
 ```
 
 ## Требования и ограничения
 
-- ПК: Windows 10/11 и ArcSync 0.1.5+. **Кодировщику видео пока нужна видеокарта AMD (AMF).**
-- ТВ: Android TV 6 или новее с аппаратным декодером HEVC или H.264. Проверено на телевизорах с Android TV 6/7.
+- ПК: Windows 10/11, ArcSync 0.1.6+ и **любая видеокарта**: AMD (AMF), NVIDIA (NVENC) или Intel (Quick Sync). Если аппаратного кодировщика нет, ArcSync передаёт программный H.264 до 60 кадров/с.
+- ТВ: Android TV 6 или новее на **любом процессоре** — MediaTek, Amlogic, Realtek, Qualcomm, HiSilicon. Приложение сообщает ПК, какие кодеки умеет декодировать; без HEVC включается H.264. Проверено на телевизорах с Android TV 6/7.
 - Альфа: APK подписан ключом разработки. Один сеанс стрима за раз (телефон, ТВ или PSP).
 
 ## Приватность и безопасность
@@ -62,4 +62,4 @@ certutil -hashfile ArcSyncCastTV-0.1-alpha.apk SHA256
 
 Бесплатно как часть [ArcSync](https://github.com/Rezerv-EM/ArcSync) на условиях [соглашения ArcSync](https://github.com/Rezerv-EM/ArcSync/blob/main/EULA.txt). Исходный код приложения закрыт; в репозитории — релизы и документация. См. [сторонние компоненты](THIRD_PARTY_NOTICES.md). Названия и изображения игр принадлежат их правообладателям. На скриншотах — русский интерфейс и настоящая библиотека.
 
-Скачать: **ArcSyncCastTV-0.1-alpha.apk** в [последнем релизе](../../releases).
+Скачать: **ArcSyncCastTV-0.1.1-alpha.apk** в [последнем релизе](../../releases).
